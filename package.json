@@ -1,0 +1,12 @@
+{
+  "name": "chad-web",
+  "version": "1.0.0",
+  "description": "Chad Guo personal website with InstantDB integration",
+  "type": "module",
+  "main": "index.html",
+  "dependencies": {
+    "@instantdb/react": "^0.10.32",
+    "@instantdb/core": "^0.10.32",
+    "resend": "^3.2.0"
+  }
+}

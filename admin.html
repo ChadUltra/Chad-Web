@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理面板 - Chad Guo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="admin.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Import Map for InstantDB -->
+    <script type="importmap">
+    {
+        "imports": {
+            "@instantdb/core": "https://esm.sh/@instantdb/core@0.10.32/dist/module/index.js"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">管理面板</div>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link">返回网站</a></li>
+                <li><a href="#inquiries" class="nav-link">咨询管理</a></li>
+                <li><a href="#stats" class="nav-link">统计数据</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Stats Section -->
+    <section id="stats" class="admin-stats">
+        <div class="container">
+            <h2 class="section-title">统计数据 <span class="title-en">Statistics</span></h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-inbox"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="totalInquiries">0</h3>
+                        <p class="stat-label">总咨询数</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-day"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="todayInquiries">0</h3>
+                        <p class="stat-label">今日新增</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="tobCount">0</h3>
+                        <p class="stat-label">企业咨询 (ToB)</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-value" id="tocCount">0</h3>
+                        <p class="stat-label">个人定制 (ToC)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inquiries Section -->
+    <section id="inquiries" class="admin-inquiries">
+        <div class="container">
+            <div class="admin-header">
+                <h2 class="section-title">咨询管理 <span class="title-en">Inquiry Management</span></h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="tob">企业咨询</button>
+                    <button class="filter-btn" data-filter="toc">个人定制</button>
+                </div>
+            </div>
+            
+            <div class="inquiries-list" id="inquiriesList">
+                <div class="loading-state">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>加载中...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="admin.js"></script>
+</body>
+</html>
+

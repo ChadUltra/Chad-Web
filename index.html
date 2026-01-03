@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chad Guo - Global Strategy & Bespoke Experiences</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Import Map for InstantDB (using skypack CDN, core only) -->
+    <script type="importmap">
+    {
+        "imports": {
+            "@instantdb/core": "https://cdn.skypack.dev/@instantdb/core@0.10.32"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Chad Guo</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Philosophy</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#credentials" class="nav-link">Why Choose Us</a></li>
+                <li><a href="#contact-form" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <p class="hero-slogan">Empowering Global Vision, Curating Exceptional Journeys</p>
+            <p class="hero-subtitle">Fortune 500 AI Marketing Expert | 90+ Countries Explorer | Amsterdam Business School Alumni</p>
+            <div class="hero-cta">
+                <a href="#services" class="cta-btn primary">Corporate Services</a>
+                <a href="#private-excellence" class="cta-btn secondary">Personal Services</a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="about" class="about philosophy">
+        <div class="container">
+            <h2 class="section-title">BRIDGING BOARDROOMS AND HORIZONS</h2>
+            <div class="philosophy-content">
+                <div class="philosophy-text">
+                    <p class="philosophy-quote">Where data-driven strategy meets cultural intelligence.</p>
+                    <p class="philosophy-description">With 5 years of Fortune 500 AI marketing expertise and first-hand insights from 90+ countries across 7 continents, I deliver not just consulting—but transformation grounded in real-world experience.</p>
+                    <p class="philosophy-description">From scaling businesses across borders to curating once-in-a-lifetime journeys, my approach combines analytical rigor with deep cultural understanding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">SERVICES OVERVIEW</h2>
+            
+            <!-- Corporate Strategy -->
+            <div class="services-category">
+                <h3 class="category-title">Corporate Services</h3>
+                <div class="services-grid">
+                    <div class="service-card corporate">
+                        <div class="service-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <h4 class="service-name">Global Market Expansion <span class="service-name-en"></span></h4>
+                        <p class="service-tagline">Break Through Cultural Barriers, Unlock Growth Potential</p>
+                        <p class="service-description">Leveraging 5+ years of hands-on international expansion experience and on-the-ground insights from 90+ countries, I provide end-to-end strategic guidance—from market entry and cultural adaptation to localized brand building.</p>
+                        <div class="pricing-info">
+                            <p class="pricing-label">Investment Structure</p>
+                            <p class="pricing-item">• Project-Based Deep Dive: Market entry strategy, competitive analysis (customized pricing)</p>
+                            <p class="pricing-item">• Monthly Retainer: Ongoing strategic advisory with dedicated hours</p>
+                        </div>
+                    </div>
+                    <div class="service-card corporate">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4 class="service-name">AI-Powered Marketing & Growth Strategy <span class="service-name-en"></span></h4>
+                        <p class="service-tagline">Scale Smarter with Technology-Driven Solutions</p>
+                        <p class="service-description">Drawing from Fortune 500 AI marketing methodologies, I help businesses build intelligent marketing systems powered by generative AI—optimizing ROI and achieving breakthrough growth in saturated markets.</p>
+                        <div class="pricing-info">
+                            <p class="pricing-label">Investment Structure</p>
+                            <p class="pricing-item">• Modular Packages: AI marketing automation transformation (scope-based pricing)</p>
+                            <p class="pricing-item">• Day Rate Consulting: Targeted solutions for specific marketing challenges</p>
+                            <p class="pricing-item">• Performance-Based: Revenue share on incremental growth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Private Excellence -->
+            <div id="private-excellence" class="services-category">
+                <h3 class="category-title">Personal Services</h3>
+                <div class="services-grid">
+                    <div class="service-card private">
+                        <div class="service-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h4 class="service-name">Bespoke Travel Curation <span class="service-name-en"></span></h4>
+                        <p class="service-tagline">Not Just Travel—A Lifetime Experience</p>
+                        <p class="service-description">No cookie-cutter itineraries. Drawing from explorations across 7 continents, I design extraordinary journeys for discerning travelers—from Antarctic expeditions to African safaris and spiritual retreats in Bhutan.</p>
+                        <div class="pricing-info">
+                            <p class="pricing-label">Fee Structure</p>
+                            <p class="pricing-item">• Planning Fee: 10-15% of total travel budget (or minimum engagement fee)</p>
+                            <p class="pricing-item">• Optional Travel Companion: Daily rate including photography and cultural interpretation</p>
+                            <p class="pricing-note">*Limited to complex, deep-dive destinations only*</p>
+                        </div>
+                    </div>
+                    <div class="service-card private">
+                        <div class="service-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h4 class="service-name">Global Mindset Coaching <span class="service-name-en"></span></h4>
+                        <p class="service-tagline">Elevate Your Perspective, Amplify Your Impact</p>
+                        <p class="service-description">Combining business school analytical thinking with cross-cultural wisdom from global travels, I offer 1-on-1 intensive coaching for high-achievers navigating career transitions or seeking to develop world-class leadership perspectives.</p>
+                        <div class="pricing-info">
+                            <p class="pricing-label">Fee Structure</p>
+                            <p class="pricing-item">• Foundation Program: 6-8 deep-dive sessions</p>
+                            <p class="pricing-item">• VIP Annual Partnership: Monthly sessions + on-demand support</p>
+                            <p class="pricing-note">*Limited to 5 private clients annually*</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credentials Section -->
+    <section id="credentials" class="credentials">
+        <div class="container">
+            <h2 class="section-title">WHY CHOOSE US</h2>
+            <div class="credentials-grid">
+                <div class="credential-card">
+                    <div class="credential-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="credential-title">Academic Foundation</h3>
+                    <p class="credential-name">MSc in Business, University of Amsterdam</p>
+                    <p class="credential-detail">European top-tier business education</p>
+                    <p class="credential-desc">providing strategic rigor</p>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="credential-title">Corporate Excellence</h3>
+                    <p class="credential-name">5 Years at Fortune 500</p>
+                    <p class="credential-detail">AI & Marketing Expert</p>
+                    <p class="credential-desc">Mastered growth frameworks that drive real results</p>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="credential-title">Global Intelligence</h3>
+                    <p class="credential-name">90+ Countries Across 7 Continents</p>
+                    <p class="credential-detail">Every destination is a lesson</p>
+                    <p class="credential-desc">Bringing authentic insights, not textbook theories</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form">
+        <div class="container">
+            <h2 class="section-title">INITIATE THE CONNECTION</h2>
+            <p class="form-intro">To ensure I can provide you with the most precise strategic insights or experience design, please briefly describe your current situation and vision. I typically respond personally within 48 hours.</p>
+            
+            <form id="inquiryForm" class="inquiry-form">
+                <!-- Basic Information -->
+                <div class="form-section">
+                    <h3 class="form-section-title">Basic Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contact">Phone / WhatsApp <span class="required">*</span></label>
+                            <input type="text" id="contact" name="contact" placeholder="+1 (555) 123-4567" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="timezone">Timezone / Location</label>
+                            <input type="text" id="timezone" name="timezone" placeholder="e.g., EST, PST, GMT+8, or City name">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Type -->
+                <div class="form-section">
+                    <h3 class="form-section-title">Service Type <span class="required">*</span></h3>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="serviceType" value="tob" required>
+                            <span class="radio-custom"></span>
+                            <span class="radio-text">
+                                <strong>Corporate Services:</strong> Global Market Expansion / AI-Powered Marketing & Growth Strategy
+                            </span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="serviceType" value="toc" required>
+                            <span class="radio-custom"></span>
+                            <span class="radio-text">
+                                <strong>Personal Services:</strong> Bespoke Travel Curation / Global Mindset Coaching
+                            </span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- ToB Fields -->
+                <div id="tobFields" class="form-section tob-fields">
+                    <h3 class="form-section-title">Company Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="company">Company Name <span class="required">*</span></label>
+                            <input type="text" id="company" name="company" placeholder="Your company name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="industry">Industry / Sector</label>
+                            <input type="text" id="industry" name="industry" placeholder="e.g., Technology, E-commerce, SaaS">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="companySize">Company Size</label>
+                            <select id="companySize" name="companySize">
+                                <option value="">Select company size...</option>
+                                <option value="Startup (1-10)">Startup (1-10 employees)</option>
+                                <option value="Small (11-50)">Small (11-50 employees)</option>
+                                <option value="Medium (51-200)">Medium (51-200 employees)</option>
+                                <option value="Large (201-1000)">Large (201-1000 employees)</option>
+                                <option value="Enterprise (1000+)">Enterprise (1000+ employees)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="role">Your Role / Title</label>
+                            <input type="text" id="role" name="role" placeholder="e.g., CEO, CMO, Head of Growth">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="challenges">Current Business Challenges <span class="required">*</span></label>
+                        <textarea id="challenges" name="challenges" rows="4" placeholder="Please describe your key business challenges, pain points, or areas where you need strategic guidance..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="objectives">Project Objectives & Goals</label>
+                        <textarea id="objectives" name="objectives" rows="4" placeholder="What are you hoping to achieve? What would success look like? (e.g., expand to European markets, improve AI marketing ROI, build localized brand presence...)"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget Range / Investment Capacity</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget range...</option>
+                            <option value="Under $10K">Under $10K</option>
+                            <option value="$10K - $25K">$10K - $25K</option>
+                            <option value="$25K - $50K">$25K - $50K</option>
+                            <option value="$50K - $100K">$50K - $100K</option>
+                            <option value="$100K+">$100K+</option>
+                            <option value="To be discussed">To be discussed</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="timeline">Expected Timeline</label>
+                        <select id="timeline" name="timeline">
+                            <option value="">Select timeline...</option>
+                            <option value="ASAP / Urgent">ASAP / Urgent</option>
+                            <option value="Within 1 month">Within 1 month</option>
+                            <option value="1-3 months">1-3 months</option>
+                            <option value="3-6 months">3-6 months</option>
+                            <option value="6+ months">6+ months</option>
+                            <option value="Exploring options">Exploring options</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- ToC Fields -->
+                <div id="tocFields" class="form-section toc-fields">
+                    <h3 class="form-section-title">Personal Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">Current City / Location</label>
+                            <input type="text" id="city" name="city" placeholder="e.g., New York, London, Singapore">
+                        </div>
+                        <div class="form-group">
+                            <label for="referral">How did you hear about us? <span class="required">*</span></label>
+                            <select id="referral" name="referral" required>
+                                <option value="">Please select...</option>
+                                <option value="LinkedIn">LinkedIn</option>
+                                <option value="Referral">Referral (please specify in additional message)</option>
+                                <option value="Google Search">Google Search</option>
+                                <option value="Social Media">Social Media</option>
+                                <option value="Conference/Event">Conference/Event</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceInterest">Which service are you interested in? <span class="required">*</span></label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="serviceInterest" value="travel">
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">Bespoke Travel Curation</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="serviceInterest" value="coaching">
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">Global Mindset Coaching</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="vision">Tell me about your vision / goals <span class="required">*</span></label>
+                        <textarea id="vision" name="vision" rows="5" placeholder="For Travel: Where do you want to go? What kind of experience are you seeking? (e.g., Antarctic expedition, African safari, spiritual retreat in Bhutan...)\n\nFor Coaching: What challenges are you facing? What transformation are you seeking? (e.g., career transition, leadership development, global perspective building...)" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="travelBudget">Travel Budget (if applicable)</label>
+                        <select id="travelBudget" name="travelBudget">
+                            <option value="">Select budget range...</option>
+                            <option value="Under $10K">Under $10K</option>
+                            <option value="$10K - $25K">$10K - $25K</option>
+                            <option value="$25K - $50K">$25K - $50K</option>
+                            <option value="$50K - $100K">$50K - $100K</option>
+                            <option value="$100K+">$100K+</option>
+                            <option value="To be discussed">To be discussed</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="travelDates">Preferred Travel Dates (if applicable)</label>
+                        <input type="text" id="travelDates" name="travelDates" placeholder="e.g., Q2 2024, Summer 2024, Flexible">
+                    </div>
+                </div>
+
+                <!-- Additional Information -->
+                <div class="form-section">
+                    <h3 class="form-section-title">Additional Information</h3>
+                    <div class="form-group">
+                        <label for="additional">Anything else you'd like me to know?</label>
+                        <textarea id="additional" name="additional" rows="4" placeholder="Any additional context, specific questions, or information that would help me better understand your needs..."></textarea>
+                    </div>
+                </div>
+
+                <!-- Discovery Call -->
+                <div class="discovery-call">
+                    <p><i class="fas fa-info-circle"></i> <strong>Discovery Call:</strong> A complimentary 30-minute conversation to ensure service alignment and mutual fit. This helps me understand your needs and allows you to evaluate if we're a good match.</p>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-submit">
+                    <button type="submit" class="submit-btn">
+                        <span>Send Inquiry</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-quote">FOR THOSE WHO THINK BEYOND BORDERS</p>
+                <p class="footer-quote-en">Exclusively serving visionaries ready to transform</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Chat Button -->
+    <button class="chat-toggle" id="chatToggle">
+        <i class="fas fa-comments"></i>
+        <span class="chat-badge">新</span>
+    </button>
+
+    <!-- AI Chat Window -->
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+            <div class="chat-header-left">
+                <div class="chat-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="chat-info">
+                    <h3>AI助手</h3>
+                    <span class="chat-status">
+                        <span class="status-dot"></span>
+                        在线
+                    </span>
+                </div>
+            </div>
+            <div class="chat-header-right">
+                <button class="chat-btn-minimize" id="chatMinimize">
+                    <i class="fas fa-minus"></i>
+                </button>
+                <button class="chat-btn-close" id="chatClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <!-- Messages will be inserted here -->
+        </div>
+        <div class="chat-input-area">
+            <div class="quick-questions" id="quickQuestions">
+                <button class="quick-question-btn" data-question="Tell me about your background and experience">Tell me about your background</button>
+                <button class="quick-question-btn" data-question="What services do you offer?">What services do you offer?</button>
+                <button class="quick-question-btn" data-question="How can I book a consultation?">How to book a consultation?</button>
+                <button class="quick-question-btn" data-question="What are your credentials?">What are your credentials?</button>
+            </div>
+            <div class="chat-input-wrapper">
+                <textarea 
+                    id="chatInput" 
+                    class="chat-input" 
+                    placeholder="问我任何问题..."
+                    rows="1"
+                ></textarea>
+                <button class="chat-send-btn" id="chatSendBtn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
